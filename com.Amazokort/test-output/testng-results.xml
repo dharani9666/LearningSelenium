@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[getsuite connection successfully]]>
+    </line>
+    <line>
+      <![CDATA[precondition successfully]]>
+    </line>
+    <line>
+      <![CDATA[BrowserSetup Sucessful]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_invalidData for login Test]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_validData for login  Test]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_validData for login  Test]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[login_validData for login  Test]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[closebrowser successfully]]>
+    </line>
+    <line>
+      <![CDATA[postcondition successfully]]>
+    </line>
+    <line>
+      <![CDATA[terminate suite connection successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-09T10:54:15 IST" name="Suite" finished-at="2024-08-09T10:54:18 IST" duration-ms="3370">
+    <groups>
+    </groups>
+    <test started-at="2024-08-09T10:54:15 IST" name="Test" finished-at="2024-08-09T10:54:18 IST" duration-ms="3370">
+      <class name="com.Amazokart.logintest.LoginTest">
+        <test-method is-config="true" signature="getsuiteconnecction()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:15 IST" name="getsuiteconnecction" finished-at="2024-08-09T10:54:15 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[getsuite connection successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getsuiteconnecction -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:15 IST" name="precondition" finished-at="2024-08-09T10:54:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[precondition successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="browsersetup(java.lang.String)[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:15 IST" name="browsersetup" finished-at="2024-08-09T10:54:18 IST" duration-ms="3115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BrowserSetup Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login" finished-at="2024-08-09T10:54:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_invalidData()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login_invalidData" finished-at="2024-08-09T10:54:18 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login_invalidData for login Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_invalidData -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="logout" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_validData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login_validData" data-provider="Register" finished-at="2024-08-09T10:54:18 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dharani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dharani@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login_validData for login  Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_validData -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="logout" finished-at="2024-08-09T10:54:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_validData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login_validData" data-provider="Register" finished-at="2024-08-09T10:54:18 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhana@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login_validData for login  Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_validData -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="logout" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_validData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="login_validData" data-provider="Register" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lakshmi@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[devops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login_validData for login  Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_validData -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="logout" finished-at="2024-08-09T10:54:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="closebrowser" finished-at="2024-08-09T10:54:18 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closebrowser successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="postcondition" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[postcondition successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="terminatesuiteconnection()[pri:0, instance:com.Amazokart.logintest.LoginTest@d737b89]" started-at="2024-08-09T10:54:18 IST" name="terminatesuiteconnection" finished-at="2024-08-09T10:54:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[terminate suite connection successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminatesuiteconnection -->
+      </class> <!-- com.Amazokart.logintest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

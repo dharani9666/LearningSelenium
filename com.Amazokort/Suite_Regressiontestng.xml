@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <groups>
+    <run>
+<include name="integration"></include>
+<exclude name="smoke"></exclude>
+<exclude name="functionality"></exclude>
+
+    </run>
+   </groups>
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.Amokart.kidsproducttest.KidsProducttest1"/>
+    <class name="com.Amokart.kidsproducttest.KidsProducttest2"/>
+     <class name="com.Amokart.kidsproducttest.KidsProducttest3"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest4"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest5"/>
+       <class name="com.Amokart.kidsproducttest.KidsProducttest6"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest7"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest8"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest9"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest10"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.Amokart.kidsproducttest.KidsProducttest1"/>
+    <class name="com.Amokart.kidsproducttest.KidsProducttest2"/>
+     <class name="com.Amokart.kidsproducttest.KidsProducttest3"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="com.Amokart.kidsproducttest.KidsProducttest4"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest5"/>
+       <class name="com.Amokart.kidsproducttest.KidsProducttest6"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="com.Amokart.kidsproducttest.KidsProducttest7"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest8"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest9"/>
+      <class name="com.Amokart.kidsproducttest.KidsProducttest10"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite_RegressionTestong -->
